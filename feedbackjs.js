@@ -1,0 +1,73 @@
+// Initialize Firebase (ADD YOUR OWN DATA)
+var config = {
+
+  apiKey: "AIzaSyDTuC4gpkV6n3VAP5dQjtFjAVIaUHN1fXU",
+  authDomain: "spark-laboratories.firebaseapp.com",
+  databaseURL: "https://spark-laboratories-default-rtdb.firebaseio.com",
+  projectId: "spark-laboratories",
+  storageBucket: "spark-laboratories.firebasestorage.app",
+  messagingSenderId: "570966607486"
+};
+firebase.initializeApp(config);
+
+// Reference messages collection
+var messagesRef = firebase.database().ref('feedback');
+
+// Listen for form submit
+document.getElementById('feedbackForm').addEventListener('submit', submitForm);
+
+// Submit form
+function submitForm(e){
+  e.preventDefault();
+
+  // Get values
+  var name = getInputVal('name');
+  var company = getInputVal('company');
+  var email = getInputVal('email');
+  var phone = getInputVal('phone');
+  var message = getInputVal('message');
+
+  // Save message
+  saveMessage(name, company, email, phone, message);
+
+  // Show alert
+  document.querySelector('.alert').style.display = 'block';
+
+  // Hide alert after 3 seconds
+  setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+  },3000);
+
+  // Clear form
+  document.getElementById('feedbackForm').reset();
+}
+
+// Function to get get form values
+function getInputVal(id){
+  return document.getElementById(id).value;
+}
+
+// Save message to firebase
+function saveMessage(name, company, email, phone, message){
+  var newMessageRef = messagesRef.push();
+  newMessageRef.set({
+    name: name,
+    company:company,
+    email:email,
+    phone:phone,
+    message:message
+  });
+}
+
+
+function myFunction() {
+	var x = document.getElementById("myMenu");
+	if (x.className === "menu") {
+	  x.className += " responsive";
+	  } else {
+		x.className = "menu";
+	}
+}
+
+
+

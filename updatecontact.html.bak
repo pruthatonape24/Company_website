@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spark Lab</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+ <div class="leftmenu">
+    <center><img src="./image/logo.png" alt="logo" height="80" width="80"></center>
+    <center><h2>Spark Laboratories</h2></center><br>
+   </div>
+
+<div class="menu" id="myMenu">
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">About us</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="services.html">Services</a>
+  <a href="https://sparklaboratories.blogspot.com/2025/03/enhancing-electrical-control-panels.html">Blog</a>
+  <a href="contact.html">Contact</a>
+  <a href="feedback.html">Feedback</a>
+  <a href="faq.html">FAQ</a>
+  <a href="adminconsole.html">Admin</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+   </a>
+</div>
+	
+  <div class="container">
+    <h1 class="brand">Spark Laboratories</h1><br>
+    <div class="wrapper">
+      <div class="company-info">
+        <h3>Spark Laboratories</h3>
+        <ul>
+          <li><i class="fa fa-road"></i> sparklab273@gmail.com</li>
+          <li><i class="fa fa-phone"></i> 9423260404</li>
+          <li><i class="fa fa-envelope"></i> Shop No - 10,Samruddhi Park, Sadar Bazar, Satara - 415002</li>
+		  
+        </ul>
+      </div>
+      <div class="contact">
+        <div class="alert">Your message has been sent</div>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Company</label>
+            <input type="text" name="company" id="company">
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="text" name="phone" id="phone">
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+   <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <span class="logo_name">Spark Laboratories</span>
+        </div>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Company</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+		  <li><a href="team.html">Developers</a><li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Services</li>
+          <li><a href="#">Custom Electrical Control Panels</a></li>
+          <li><a href="#">Automation & Control Systems</a></li>
+          <li><a href="#">Panel Design & Engineering</a></li>
+          <li><a href="#">Testing & Quality Assurance</a></li>
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+          <li><input type="text" placeholder="Enter your email"></li>
+          <li><input type="button" value="Subscribe"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright &#169; 2025 <a href="#">Prutha Tonape</a>. All rights reserved</span>
+        <span class="policy-terms">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </span>
+      </div>
+    </div>
+    </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>

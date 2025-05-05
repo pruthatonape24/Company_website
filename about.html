@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+  <div class="leftmenu">
+    <center><img src="./image/logo.png" alt="logo" height="80" width="80"></center>
+    <center><h2>Spark Laboratories</h2></center><br>
+   </div>
+
+<div class="menu" id="myMenu">
+  <a href="index.html" class="active">Home</a>
+  <a href="about.html">About us</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="services.html">Services</a>
+  <a href="https://sparklaboratories.blogspot.com/2025/03/enhancing-electrical-control-panels.html">Blog</a>
+  <a href="contact.html">Contact</a>
+  <a href="feedback.html">Feedback</a>
+  <a href="faq.html">FAQ</a>
+  <a href="adminconsole.html">Admin</a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+   </a>
+</div>
+	
+    <section class="intro">
+	<div>
+		<h1><center>About Us</center></h1><br>
+        <center><img src="./image/logo.png" alt="Company logo"></center><br>
+        <p style="text-align:left;"><h2>Spark Laboratories - Electrical Control Panel Manufacturer, Since 2006</h2><br>
+        Welcome to Spark Laboratories, a premier manufacturer of electrical control panels, committed to delivering high-quality, efficient, and customized solutions for various industries.Founded in 2006 by Mr. Amit Natu, our company has consistently set benchmarks in the field of industrial automation and power control.<br>
+		With a legacy of innovation, reliability, and excellence, we specialize in designing and manufacturing advanced control panels that optimize processes, enhance safety, and improve energy efficiency across multiple sectors.</p><br>
+		
+		<p><h2>Our Products & Expertise</h2><br>
+        At Spark Laboratories, we offer a diverse range of electrical control panels, carefully designed to meet the demands of modern industries. Our panels are built with precision engineering, cutting-edge technology, and strict quality control measures.<br>
+
+        Our Core Product Range Includes:<br>
+        ✅ VFD-Based Control Panels – Designed to provide energy-efficient motor control, reducing power consumption and improving system performance.<br>
+
+        ✅ PLC-Based Control Panels – Smart automation solutions using Programmable Logic Controllers (PLCs) to enhance process control, efficiency, and integration.<br>
+
+		✅ Crusher Control Panels – Built for heavy-duty operations, ensuring the smooth and safe operation of crushers in mining and construction industries.<br>
+
+		✅ PCC (Power Control Center) Panels – High-performance panels for power distribution and load management, ensuring stable electrical operations.<br>
+
+		✅ Material Handling Lift Panels – Reliable and durable control panels designed for elevators, hoists, and other material handling equipment in warehouses, factories, and logistics centers.<br>
+
+		✅ Dosing Panels – Precision control systems for dosing applications, widely used in the chemical, pharmaceutical, and food processing industries.<br>
+
+		✅ Customized Control Panels – We provide tailor-made solutions designed to meet unique industrial automation and power management requirements.</p><br>
+
+     <p><h2>Why Choose Spark Laboratories?</h2><br>
+     At Spark Laboratories, we are more than just a manufacturer—we are your strategic partner in power control and automation. Here’s why industries trust us:<br>
+
+	🔹 Industry Experience & Technical Expertise<br>
+	With over 18 years of experience, we have a deep understanding of industrial automation and power control, allowing us to deliver highly efficient and cost-effective control panel solutions.<br>
+
+	🔹 Uncompromised Quality & Compliance<br>
+	Our products are manufactured using high-quality components and adhere to strict industry standards, ensuring durability, safety, and long-term reliability.<br>
+
+	🔹 Advanced Technology & Innovation<br>
+	We integrate the latest technologies, including IoT-enabled monitoring, remote access capabilities, and energy-efficient solutions, to provide smart and future-ready control panels.<br>
+
+	🔹 Tailor-Made Solutions<br>
+	Every industry has unique requirements, and we specialize in customized control panel solutions that align with your specific needs.<br>
+
+	🔹 Dedicated Customer Support<br>
+	Our team of experts and engineers offers end-to-end support, from design consultation and manufacturing to installation and after-sales service.<br><br>
+
+	<h2>Industries We Serve</h2><br>
+    We cater to a wide range of industries, including:<br>
+	✔ Manufacturing & Industrial Automation<br>
+	✔ Construction & Mining<br>
+	✔ Material Handling & Logistics<br>
+	✔ Power & Energy<br>
+	</p><br>
+	
+	<p><h2>Our Vision & Mission</h2><br>
+    🔹   Vision: To be a globally recognized leader in electrical control panel manufacturing, setting new standards in quality, innovation, and customer satisfaction.<br>
+
+    🔹   Mission: To provide industries with high-quality, energy-efficient, and technologically advanced control panels that enhance productivity, ensure safety, and support sustainable growth.</p><br>
+    </div></section>
+   
+<style>
+ body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.bgimage {
+   background-image: url("./image/background_image.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: coloumn;
+   text-align: center;
+   color: black;
+  }
+   
+.menu {
+  overflow: hidden;
+  background-color: #85c1e9;
+}
+
+.menu a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.menu a:hover {
+	background-color: #D6EAF8;
+	color: black;
+}
+
+.menu a.active {
+	background-color: #2E86C1;
+	color: white;
+}
+
+.menu .icon {
+	display: none;
+}
+
+@media screen and (max-width: 600px) {
+	.menu a:not(:first-child) {display: none;}
+	.menu a.icon {
+	 float: right;
+	 display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.menu.responsive {position: relative;}
+	.menu.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.menu.responsive a{
+	 float: none;
+	 display: block;
+	 text-align: left;
+	}
+}
+
+div { text-align: left; }
+
+
+		
+	#footer
+ body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5db7f3;
+}
+
+header {
+    background-color: #85c1e9;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.intro {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+}
+
+.intro img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team {
+    padding: 2rem;
+    background-color: #e9ecef;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.team-member {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #fdfefe;
+}
+footer{
+  position: relative;
+  background: #85c1e9;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+footer::before{
+  content: '';
+  position: relative;
+  left: 0;
+  top: 100px;
+  height: 1px;
+  width: 100%;
+  background: #55AD9B;
+}
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+footer .content .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details{
+  color: #c0392b;
+  font-size: 30px;
+}
+.content .top .media-icons{
+  display: flex;
+}
+.content .top .media-icons a{
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1){
+  background: #4267B2;
+}
+.top .media-icons a:nth-child(1):hover{
+  color: #4267B2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2){
+  background: #1DA1F2;
+}
+.top .media-icons a:nth-child(2):hover{
+  color: #1DA1F2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3){
+  background: #E1306C;
+}
+.top .media-icons a:nth-child(3):hover{
+  color: #E1306C;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4){
+  background: #0077B5;
+}
+.top .media-icons a:nth-child(4):hover{
+  color: #0077B5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5){
+  background: #FF0000;
+}
+.top .media-icons a:nth-child(5):hover{
+  color: #FF0000;
+  background: #fff;
+}
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 5 - 10px);
+}
+.content .link-boxes .box .link_name{
+  color: #392cb6;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+}
+.link-boxes .box .link_name::before{
+  content: '';
+  position: relative;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+.content .link-boxes .box li{
+  margin: 6px 0;
+  list-style: none;
+}
+.content .link-boxes .box li a{
+  color: #021018;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease
+}
+.content .link-boxes .box li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.content .link-boxes .input-box{
+  margin-right: 55px;
+}
+.link-boxes .input-box input{
+  height: 40px;
+  width: calc(100% + 55px);
+  outline: none;
+  border: 2px solid #1D1616;
+  background: black;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+.link-boxes .input-box input::placeholder{
+  color: #AFAFB6;
+  font-size: 16px;
+}
+.link-boxes .input-box input[type="button"]{
+  background: #fff;
+  color: #140B5C;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.input-box input[type="button"]:hover{
+  opacity: 1;
+}
+footer .bottom-details{
+  width: 100%;
+  background: black;
+}
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.bottom-details .bottom_text a{
+  margin-right: 10px;
+}
+@media (max-width: 900px) {
+  footer .content .link-boxes{
+    flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box{
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px){
+  footer{
+    position: relative;
+  }
+  .content .top .logo-details{
+    font-size: 26px;
+  }
+  .content .top .media-icons a{
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 3 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 60%;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 12px;
+  }
+}
+@media (max-width: 520px){
+  footer::before{
+    top: 145px;
+  }
+  footer .content .top{
+    flex-direction: column;
+  }
+  .content .top .media-icons{
+    margin-top: 16px;
+  }
+  footer .content .link-boxes .box{
+    width: calc(100% / 2 - 10px);
+  }
+  footer .content .link-boxes .input-box{
+    width: 100%;
+  }
+}
+</style>
+    <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <span class="logo_name">Spark Laboratories</span>
+        </div>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Company</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+		  <li><a href="team.html">Developers</a><li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Services</li>
+          <li><a href="#">Custom Electrical Control Panels</a></li>
+          <li><a href="#">Automation & Control Systems</a></li>
+          <li><a href="#">Panel Design & Engineering</a></li>
+          <li><a href="#">Testing & Quality Assurance</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright &#169; 2025 <a href="#">Spark Laboratories</a>. All rights reserved</span>
+        <span class="policy-terms">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </span>
+      </div>
+    </div>
+    </footer>
+	 <script>
+function myFunction() {
+	var x = document.getElementById("myMenu");
+	if (x.className === "menu") {
+	  x.className += " responsive";
+	  } else {
+		x.className = "menu";
+	}
+}
+</script>
+</body>
+</html>
